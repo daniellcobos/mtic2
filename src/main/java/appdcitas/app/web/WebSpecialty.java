@@ -23,6 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
 import appdcitas.app.modelo.Specialty;
 import appdcitas.app.servicios.ServiciosSpecialty;
 
+
 /**
  *
  * @author USUARIO
@@ -59,5 +60,5 @@ public class WebSpecialty {
     public boolean delete(@PathVariable("id") int categoriaId) {
         return servicios.deleteCategoria(categoriaId);
     }
-    
+
 }
